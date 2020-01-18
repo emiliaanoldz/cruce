@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Desafío CRUCE</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid header">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col">
+              <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 5.5H18V6.5H0V5.5Z" fill="white"/>
+              <path d="M0 11H18V12H0V11Z" fill="white"/>
+              <path d="M0 1.90735e-06H18V1H0V1.90735e-06Z" fill="white"/>
+              </svg>
+
+              <a href="#">Categorias</a>
+              <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.1933 1.19333L6 5.39333L1.80667 1.19333C1.68113 1.0678 1.51087 0.997272 1.33333 0.997272C1.1558 0.997272 0.985537 1.0678 0.860001 1.19333C0.734465 1.31887 0.66394 1.48913 0.66394 1.66667C0.66394 1.8442 0.734465 2.01446 0.860001 2.14L5.52667 6.80667C5.58864 6.86915 5.66238 6.91875 5.74362 6.95259C5.82486 6.98644 5.91199 7.00387 6 7.00387C6.08801 7.00387 6.17515 6.98644 6.25639 6.95259C6.33763 6.91875 6.41136 6.86915 6.47333 6.80667L11.14 2.14C11.2022 2.07784 11.2515 2.00405 11.2851 1.92283C11.3187 1.84162 11.3361 1.75457 11.3361 1.66667C11.3361 1.57876 11.3187 1.49171 11.2851 1.4105C11.2515 1.32929 11.2022 1.25549 11.14 1.19333C11.0778 1.13117 11.004 1.08187 10.9228 1.04823C10.8416 1.01459 10.7546 0.997272 10.6667 0.997272C10.5788 0.997272 10.4917 1.01459 10.4105 1.04823C10.3293 1.08187 10.2555 1.13117 10.1933 1.19333Z" fill="white"/>
+              </svg>
+            </div>
+
+            <div class="col text-center">
+              <img src="img/logo.svg" alt="">
+            </div>
+
+            <div class="col d-flex justify-content-end align-items-center">
+              <a href="#"><img src="img/lupa.svg" alt=""></a>
+              <a href="#"><img src="img/user.svg" alt=""></a>
+              <a href="#"><img src="img/carro.svg" alt=""></a>
+              <div id="counter">
+                0
+              </div>
+            </div>
+          </div>
+
+          <div class="carro col">
+            <div class="contenido">
+
+            </div>
+            <div class="acciones d-flex justify-content-center flex-column">
+                <div class="d-flex justify-content-between">
+                  <span>Subtotal</span>
+                  <span>$123</span>
+                </div>
+
+              <button class="btn-custom font-weight-bold w-100" type="button" name="button">Finalizar Compra</button>
+              <small class="text-center py-2">Seguir comprando</small>
+            </div>
+          </div>
+          </div>
+        </div>
+
+    </header>
+
+    <main>
+      <div class="container">
+        <br>
+        <div class="carousel slide" data-ride="carousel" data-interval="3000">
+          <div class="overlay"></div>
+          <ol class="carousel-indicators">
+            <li data-target="#" data-slide-to="0" class="active"></li>
+            <li data-target="#" data-slide-to="1"></li>
+            <li data-target="#" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/banner_1.png" class="d-block w-100" alt="Banner">
+            </div>
+            <div class="carousel-item">
+              <img src="img/banner_2.png" class="d-block w-100" alt="Banner">
+            </div>
+            <div class="carousel-item">
+              <img src="img/banner_3.png" class="d-block w-100" alt="Banner">
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center my-4">
+            <h1>Carousel de Productos</h1>
+          </div>
+        </div>
+
+        <div class="row productos">
+          <div class="arrow left">
+            <a href=""><img src="img/flecha-3.svg" alt=""></a>
+          </div>
+          <div class="arrow right">
+            <a href=""><img src="img/flecha-4.svg" alt=""></a>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="img/img_reloj.png" class="card-img-top" alt="reloj">
+              <div class="card-body">
+                <h6 class="font-weight-light">CRUCE</h6>
+                <strong>Reloj Minimal</strong>
+                <span>$139.99</span>
+                <button id="count" class="btn mt-3" type="button" name="button">Agregar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="img/img_reloj.png" class="card-img-top" alt="reloj">
+              <div class="card-body">
+                <h6 class="font-weight-light">CRUCE</h6>
+                <strong>Reloj Minimal</strong>
+                <span>$139.99</span>
+                <button id="count" class="btn mt-3" type="button" name="button">Agregar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="img/img_reloj.png" class="card-img-top" alt="reloj">
+              <div class="card-body">
+                <h6 class="font-weight-light">CRUCE</h6>
+                <strong>Reloj Minimal</strong>
+                <span>$139.99</span>
+                <button id="count" class="btn mt-3" type="button" name="button">Agregar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="img/img_reloj.png" class="card-img-top" alt="reloj">
+              <div class="card-body">
+                <h6 class="font-weight-light">CRUCE</h6>
+                <strong>Reloj Minimal</strong>
+                <span>$139.99</span>
+                <button id="count" class="btn mt-3" type="button" name="button">Agregar</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <br>
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center my-4">
+            <button type="button" name="button" class="btn-custom font-weight-bold">Ver todos los productos</button>
+          </div>
+        </div>
+        <br>
+
+        <div class="row justify-content-between">
+          <div class="col-md-6 my-2">
+            <img src="img/banner_1_chico.png" alt="">
+          </div>
+          <div class="col-md-6 my-2">
+            <img src="img/banner_2_chico.png" alt="">
+          </div>
+        </div>
+    </div>
+    </main>
+
+    <footer class="mt-5">
+      <div class="container-fluid" id="footer-bg">
+        <div class="container">
+          <div class="row justify-content-center py-4">
+            <div class="col-md-3">
+              <h6 class="font-weight-bold">CRUCE</h6>
+              <svg width="24" height="1" viewBox="0 0 24 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="24" y2="0.5" stroke="#CCCCCC"/>
+              </svg>
+
+              <a href=""><p>Nuestra historia</p></a>
+              <a href=""><p>Contacto</p></a>
+              <a href=""><p>Puntos de retiro</p></a>
+            </div>
+            <div class="col-md-3">
+              <h6 class="font-weight-bold">Atención</h6>
+              <svg width="24" height="1" viewBox="0 0 24 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="24" y2="0.5" stroke="#CCCCCC"/>
+              </svg>
+
+              <a href=""><p>Preguntas frecuentes</p></a>
+              <a href=""><p>Téminos y condiciones</p></a>
+              <a href=""><p>Mis pedidos</p></a>
+            </div>
+            <div class="col-md-3">
+              <h6 class="font-weight-bold">Contacto</h6>
+              <svg width="24" height="1" viewBox="0 0 24 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="24" y2="0.5" stroke="#CCCCCC"/>
+              </svg>
+
+              <a href=""><p>Tel: 0800 888 8888</p></a>
+              <a href=""><p>Mail: info@e-cruce.com</p></a>
+              <a href=""><p>Chat en linea</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-4 d-flex align-items-center justify-content-between" id="legales">
+            <strong>© CRUCE</strong>
+            <svg width="1" height="12" viewBox="0 0 1 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0.5" x2="0.5" y2="12" stroke="#777777"/>
+            </svg>
+            <p>Todos los derechos reservados</p>
+          </div>
+
+          <div class="col-md-2 d-flex align-items-center justify-content-between" id="legales">
+            <a href="#"><img src="img/social-2.svg" alt="facebook"></a>
+            <a href="#"><img src="img/social-1.svg" alt="Instagram"></a>
+            <svg width="1" height="24" viewBox="0 0 1 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0.5" x2="0.5" y2="24" stroke="#DDDDDD"/>
+            </svg>
+            <a href="#"><img src="img/cruce.svg" alt="CRUCE"></a>
+            <a href="#"><img src="img/vtex.svg" alt=""></a>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/counter.js"></script>
+  </body>
+</html>
