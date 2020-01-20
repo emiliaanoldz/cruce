@@ -32,27 +32,28 @@
             <div class="col d-flex justify-content-end align-items-center">
               <a href="#"><img src="img/lupa.svg" alt=""></a>
               <a href="#"><img src="img/user.svg" alt=""></a>
-              <a href="#"><img src="img/carro.svg" alt=""></a>
+              <img id="clickable" class="carroBtn" src="img/carro.svg" alt="">
               <div id="counter">
                 0
               </div>
             </div>
           </div>
 
-          <div class="carro col">
-            <div class="contenido">
-
+          <div class="carro d-none col">
+            <div class="contenido d-flex flex-column justify-content-center overflow-auto">
             </div>
+
             <div class="acciones d-flex justify-content-center flex-column">
-                <div class="d-flex justify-content-between">
-                  <span>Subtotal</span>
-                  <span>$123</span>
+                <div class="d-flex justify-content-between py-2">
+                  <span class="font-weight-bold">Subtotal</span>
+                  <span id="subtotal" class="font-weight-bold">$0</span>
                 </div>
 
               <button class="btn-custom font-weight-bold w-100" type="button" name="button">Finalizar Compra</button>
               <small class="text-center py-2">Seguir comprando</small>
             </div>
           </div>
+
           </div>
         </div>
 
@@ -100,10 +101,10 @@
             <div class="card">
               <img src="img/img_reloj.png" class="card-img-top" alt="reloj">
               <div class="card-body">
-                <h6 class="font-weight-light">CRUCE</h6>
-                <strong>Reloj Minimal</strong>
-                <span>$139.99</span>
-                <button id="count" class="btn mt-3" type="button" name="button">Agregar</button>
+                <h6 class="font-weight-light producto-titulo">CRUCE</h6>
+                <strong class="producto-desc">Reloj Minimal</strong>
+                <span class="producto-price">$100.99</span>
+                <button id="count" class="btn mt-3 agregar-btn" type="button" name="button">Agregar</button>
               </div>
             </div>
           </div>
@@ -112,10 +113,10 @@
             <div class="card">
               <img src="img/img_reloj.png" class="card-img-top" alt="reloj">
               <div class="card-body">
-                <h6 class="font-weight-light">CRUCE</h6>
-                <strong>Reloj Minimal</strong>
-                <span>$139.99</span>
-                <button id="count" class="btn mt-3" type="button" name="button">Agregar</button>
+                <h6 class="font-weight-light producto-titulo">CRUCE 2</h6>
+                <strong class="producto-desc">Reloj Minimal</strong>
+                <span class="producto-price">$155.99</span>
+                <button id="count" class="btn mt-3 agregar-btn" type="button" name="button">Agregar</button>
               </div>
             </div>
           </div>
@@ -124,10 +125,10 @@
             <div class="card">
               <img src="img/img_reloj.png" class="card-img-top" alt="reloj">
               <div class="card-body">
-                <h6 class="font-weight-light">CRUCE</h6>
-                <strong>Reloj Minimal</strong>
-                <span>$139.99</span>
-                <button id="count" class="btn mt-3" type="button" name="button">Agregar</button>
+                <h6 class="font-weight-light producto-titulo">CRUCE 3</h6>
+                <strong class="producto-desc">Reloj Minimal</strong>
+                <span class="producto-price">$199.99</span>
+                <button id="count" class="btn mt-3 agregar-btn" type="button" name="button">Agregar</button>
               </div>
             </div>
           </div>
@@ -136,10 +137,10 @@
             <div class="card">
               <img src="img/img_reloj.png" class="card-img-top" alt="reloj">
               <div class="card-body">
-                <h6 class="font-weight-light">CRUCE</h6>
-                <strong>Reloj Minimal</strong>
-                <span>$139.99</span>
-                <button id="count" class="btn mt-3" type="button" name="button">Agregar</button>
+                <h6 class="font-weight-light producto-titulo">CRUCE 4</h6>
+                <strong class="producto-desc">Reloj Minimal</strong>
+                <span class="producto-price">$299.99</span>
+                <button id="count" class="btn mt-3 agregar-btn" type="button" name="button">Agregar</button>
               </div>
             </div>
           </div>
@@ -229,6 +230,6 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="js/counter.js"></script>
+  <script src="js/index.js"></script>
   </body>
 </html>
